@@ -1,0 +1,90 @@
+/* soft reset do css */ 
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body 
+{
+  background: #4fc871;
+  font-size: 15px;
+}
+/* Se a tela tiver PELO MENOS 400px(pode ser outro número)  NO @MIDEA  vai ficar do jeito que eu fiz pra 400px*/
+@media(min-width: 400px)
+{
+ body
+ {
+   font-size: 15px;
+ }
+} 
+@media(min-width: 700px)
+{
+ body
+ {
+   font-size: 30px;
+ }
+}  
+@media(min-width: 1200px)
+{
+ body
+ {
+   font-size: 15px;
+ }
+} 
+header
+{
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+a 
+{
+  color:#44D7EB;
+  text-decoration: none;
+}
+a:hover 
+{
+  text-decoration: underline;
+  background-color: rgba(0, 0, 255, 0.459);
+}
+.menu a
+{
+  display: block;
+  padding: 10px 20px;
+}
+.menu
+{
+  position: fixed;
+  width: 100vw;
+  top: 0;
+}
+.menu li 
+{
+  list-style:none;
+  font-family:Arial;
+} 
+.menu ul 
+{
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+}
+.site-title
+{
+  text-align:center;
+  color:#A6E619;
+  font-family:Arial;
+}
+.site-subtitle
+{
+  text-align:center;
+  color:#A6E619;
+  font-family:verdana;
+}
+.img-portfolio
+{
+  height: 133.200px;
+  width: 200px;
+}
